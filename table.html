@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Seminar Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 85%;
+            margin: 30px auto;
+            text-align: center;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+        }
+
+        th {
+            background-color: #d9e2f3;
+            font-weight: bold;
+        }
+
+        .day {
+            background-color: #e8e8e8;
+            font-weight: bold;
+        }
+
+        .time1 {
+            background-color: #fff2cc;
+        }
+
+        .time2 {
+            background-color: #d5e8d4;
+        }
+
+        .time3 {
+            background-color: #dae8fc;
+        }
+
+        .topic {
+            background-color: #ffffff;
+            text-align: left;
+            padding-left: 15px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Seminar Schedule</h2>
+
+<table>
+    <tr>
+        <th rowspan="2">Day</th>
+        <th colspan="2">Schedule</th>
+        <th rowspan="2">Topic</th>
+    </tr>
+    <tr>
+        <th>Begin</th>
+        <th>End</th>
+    </tr>
+
+    <!-- Monday -->
+    <tr>
+        <td rowspan="2" class="day">Monday</td>
+        <td class="time1">8:00 a.m.</td>
+        <td class="time3">5:00 p.m.</td>
+        <td class="topic">Introduction to XML</td>
+    </tr>
+    <tr>
+        <td colspan="2" class="time2"></td>
+        <td class="topic">Validity: DTD and Relax NG</td>
+    </tr>
+
+    <!-- Tuesday -->
+    <tr>
+        <td rowspan="3" class="day">Tuesday</td>
+        <td class="time1">8:00 a.m.</td>
+        <td class="time2">11:00 a.m.</td>
+        <td class="topic">XPath</td>
+    </tr>
+    <tr>
+        <td class="time3">11:00 a.m.</td>
+        <td class="time1">2:00 p.m.</td>
+        <td class="topic">XSL Transformations</td>
+    </tr>
+    <tr>
+        <td class="time2">2:00 p.m.</td>
+        <td class="time3">5:00 p.m.</td>
+        <td class="topic">XSL Formatting Objects</td>
+    </tr>
+
+    <!-- Wednesday -->
+    <tr>
+        <td class="day">Wednesday</td>
+        <td class="time1">8:00 a.m.</td>
+        <td class="time2">12:00 p.m.</td>
+        <td class="topic">XSL Formatting Objects</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
